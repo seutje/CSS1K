@@ -1,0 +1,60 @@
+/* General construct */
+body {
+  margin: 20px;
+  font: 14px Helvetica, Arial, sans-serif;
+  box-shadow: 0 0 15px #000;
+}
+nav {
+  width: 31.333%;
+  margin: 0 1%;
+  float: right;
+}
+article {
+  width: 64.667%;
+  margin: 0 1%;
+  float: left;
+}
+footer {
+  clear: both;
+  padding: 1%;
+}
+/* Main elements */
+h1,h2 {
+  margin: 0;
+  padding: .5em 0;
+}
+h1 {
+  padding: .5em 1%;
+}
+a {
+  color: #A00;
+}
+a:hover {
+  text-shadow: 0 0 1px #AA0;
+}
+/* Menu */
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  overflow: hidden;
+}
+ul li:hover {
+}
+ul a {
+  padding: .5em 0;
+  display: block;
+  width: 50%;
+  float: left;
+  text-align: center;
+  background: #FFF;
+  color: #000;
+}
+ul a:hover {
+  background: #000;
+  color: #FFF;
+}
+ul a:nth-child(2)::before {
+  content: 'By: '
+}
